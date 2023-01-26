@@ -18,6 +18,26 @@ DigitalOcean, Linux, npm, HTML, CSS
 
 4- Deploy and run a Node application on the Droplet.
 
+## Run and test app locally
+
+#Install the dependencies
+
+```
+npm install
+```
+
+#Start the app locally
+
+```
+npm start
+```
+
+#Test the app locally
+
+```
+npm run test"
+```
+
 ## Instructions;
 
 ### Step 1 :
@@ -112,6 +132,8 @@ scp -i .ssh/id_rsa bootcamp-node-project-1.0.0.tgz jason@159.223.68.233:~/
 tar zxvf bootcamp-node-project-1.0.0.tgz
 ```
 
+![image](https://github.com/GLC-coder/DevOps-node-project-DigitalOcean/blob/master/images/readme-img/Screenshot%202023-01-26%20at%2011.49.21%20pm.png)
+
 #Change into unpacked directory code package
 
 ```
@@ -146,14 +168,24 @@ node server.js &
 netstat -lpnt
 ```
 
+![image](https://github.com/GLC-coder/DevOps-node-project-DigitalOcean/blob/master/images/readme-img/Screenshot%202023-01-26%20at%2011.57.20%20pm.png)
+
 #Stop run the Java-React App from the detached mode
 
 ```
 kill <PID>
 ```
 
+![image](https://github.com/GLC-coder/DevOps-node-project-DigitalOcean/blob/master/images/readme-img/Screenshot%202023-01-26%20at%2011.57.32%20pm.png)
+
 ### Step 9 : Update the firewall rules
 
 #1-Update the firewall rules with the server listening port number: 3000 for all ip address in inbound traffic.
+![image](https://github.com/GLC-coder/DevOps-node-project-DigitalOcean/blob/master/images/readme-img/Screenshot%202023-01-26%20at%2011.33.34%20pm.png)
+
+![image](https://github.com/GLC-coder/DevOps-node-project-DigitalOcean/blob/master/images/readme-img/Screenshot%202023-01-26%20at%2011.56.25%20pm.png)
 
 ### Step 10 :Visit the Node App with the public ipv4 and port number of the server.
+
+URL:http://159.223.68.233:3000
+![image](https://github.com/GLC-coder/DevOps-node-project-DigitalOcean/blob/master/images/readme-img/Screenshot%202023-01-26%20at%2011.58.10%20pm.png)
