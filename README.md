@@ -18,7 +18,7 @@ DigitalOcean, Linux, npm, HTML, CSS
 
 4- Deploy and run a Node application on the Droplet.
 
-## Run and test app locally
+## Install and Run the app locally
 
 #Install the dependencies
 
@@ -26,13 +26,13 @@ DigitalOcean, Linux, npm, HTML, CSS
 npm install
 ```
 
-#Start the app locally
+#Development
 
 ```
 npm start
 ```
 
-#Test the app locally
+#Test the app
 
 ```
 npm run test"
